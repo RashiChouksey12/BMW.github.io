@@ -1,0 +1,91 @@
+.shopping-tool{
+    .heading{
+        h3{
+            margin: auto;
+            font-size: 32px;
+            border-bottom: 2px solid rgba(252, 251, 252, 0.8784313725);
+            padding-bottom: 20px;
+            text-align: center;
+            width: 226px;
+            color: #fff;
+            margin-bottom: 30px;
+        }
+    }
+    .tools{
+        display: flex;
+        justify-content: center;
+        li{
+            width: 150px;
+            height: 200px;
+            background-color: $heading-color;
+            margin: 0 15px;
+            a{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                height: 100%;
+                box-sizing: border-box;
+                padding: 20px 0;
+                font-size: 18px;
+                img{
+                    width: 50px;
+                }
+                span{
+                    color: #3d3737cf;
+                    text-align: center;
+                    line-height: 16px;
+                }
+            }
+            
+        }
+    }
+    .shopping-content{
+        padding: 60px 0 0;
+        h6{
+            font-size: 14px;
+            margin: 0;
+            color: #ffffff;
+        }
+        p{
+            font-size: 15px;
+            color: #ffffff;
+            padding-bottom: 20px;
+        }
+    }
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.card{
+    margin: 0px 20px;
+    width: 33.333%;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 50%);
+    .card-body{
+        min-height: 60px;
+        margin: 20px;
+        h3{
+            font-size: 22px;
+            color: #fff;
+        }
+        p{   
+            font-size: 15px;
+            color: #ffffff;
+            line-height: 20px;
+            padding: 10px 0;
+        }
+    }
+    .card-footer{
+        button{
+            width: 100%;
+    border: 2px solid #ffffff;
+    color: #ffffff ;
+    background: transparent;
+    padding: 10px 0;
+    
+        }
+    }
+   
+}

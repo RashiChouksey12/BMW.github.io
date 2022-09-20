@@ -1,0 +1,116 @@
+.top_icon {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+
+    .btn1 {
+        background: url('../../../assets/images/BMW/sprite-icons.png');
+        background-position: -10px -10px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .btn2 {
+        background: url('../../../assets/images/BMW/sprite-icons.png');
+        background-position: -108px -10px;
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .btn3 {
+        background: url('../../../assets/images/BMW/sprite-icons.png');
+        background-position: -58px -8px;
+        width: 50px;
+        height: 50px;
+
+    }
+}
+
+.header {
+    background: url('../../../assets/images/BMW/m340i_1680x756\ \(1\)_0.jpg');
+    position: absolute;
+    width: 100%;
+    height: 300px;
+
+    .header-top {
+    background: black;
+    position: fixed;
+    width: 100%;
+    color: #fff;
+    // padding: 5px 0;
+
+
+        .topheader-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .top-heading {
+                h6 {
+                    font-size: 15px;
+                    margin-bottom: 5px;
+                }
+
+               .cities{
+                    font-size: 12px;
+                }
+                
+            }.fast-chargingDC{
+                font-size: 15px;
+            }
+
+            .top_right {
+                display: flex;
+                align-items: center;
+              
+
+                button {
+                    background: none;
+                    border: 2px solid #fff;
+                    width: 125px;
+                    margin-right: 50px;
+                    padding: 10px 0;
+                    font-family: 'author';
+                    &:hover{
+                        background-color: #fff;
+                        a{
+                            color: #000;
+                        }
+                    }
+                    a{
+                        color: #fff;
+                        font-size: 15px;
+                        
+                    }
+                }
+            }
+
+        }
+    }
+
+    .bottom-header {
+        margin-top: 60px;
+        background: #0000006e;
+        padding: 10px;
+
+        ul {
+            display: flex;
+            align-items: center;
+         
+
+            li {
+                color: white;
+                margin-left: 30px;
+                font-size: 16px;
+                font-weight: bold;
+            }
+        }
+    }
+    .bmw-logo {
+        width: 70px;
+        position: fixed;
+        right: 30px;
+        top: 35px;
+    }
+}
